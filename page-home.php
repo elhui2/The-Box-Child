@@ -2,7 +2,7 @@
 
 /**
  * The Box Child
- * @version 0.1
+ * @version 0.2
  * @author Daniel Huidobro <daniel@rebootproject.mx>
  * Pagina home del sitio, mi resumen
  */
@@ -17,7 +17,6 @@
     <meta name="description" content="">
     <meta name="author" content="Daniel Huidobro daniel@rebootproject.mx">
     <title>@elhui2 - Sitio de Daniel Huidobro</title>
-
     <link href="<?php echo get_stylesheet_directory_uri() . '/style.css' ?>" rel="stylesheet">
 
 </head>
@@ -85,8 +84,8 @@
 
             <div class="row">
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#linux-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> GNU/Linux
@@ -96,8 +95,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#php-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> PHP
@@ -107,8 +106,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#java-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> Java
@@ -119,8 +118,8 @@
                 </div>
 
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#mysql-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> MySQL
@@ -130,8 +129,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#android-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> Android
@@ -141,8 +140,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ios-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> iOS
@@ -152,8 +151,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#montain-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> Alpinismo
@@ -163,8 +162,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                <div class="ccol-xs-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#book-modal">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <i class="fas fa-plus fa-3x"></i> Lectura
@@ -200,14 +199,6 @@
                     <p class="lead">Este es mi sitio personal, escribo y comparto un poco de todo, cosas de mi interés. Nada de lo que aquí aparece refleja la opinión de nuestra empresa o colaboradores. </p>
                 </div>
             </div>
-
-            <!-- <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                    <i class="fas fa-download mr-2"></i>
-                    Free Download!
-                </a>
-            </div> -->
-
         </div>
     </section>
 
@@ -246,17 +237,14 @@
 
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">En la red</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                    <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/elhui2.mx">
                         <i class="fab fa-fw fa-facebook-f"></i>
                     </a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                    <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://twitter.com/elhui2">
                         <i class="fab fa-fw fa-twitter"></i>
                     </a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                    <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/daniel-huidobro-65198147">
                         <i class="fab fa-fw fa-linkedin-in"></i>
-                    </a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#">
-                        <i class="fab fa-fw fa-dribbble"></i>
                     </a>
                 </div>
 
@@ -272,7 +260,7 @@
 
     <section class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; Your Website 2019</small>
+            <small>Copyleft &copy; @elhui2</small>
         </div>
     </section>
 
@@ -282,7 +270,8 @@
         </a>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <!-- Linux Modal -->
+    <div class="portfolio-modal modal fade" id="linux-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -294,7 +283,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GNU/Linux</h2>
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon">
@@ -302,12 +291,8 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_linux.png' ?>" alt="">
+                                <p class="mb-5">El mejor sistema operativo para servidores y uno de los proyectos colaborativos más grandes de la historia.</p>
                             </div>
                         </div>
                     </div>
@@ -316,7 +301,8 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <!-- PHP Modal -->
+    <div class="portfolio-modal modal fade" id="php-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -328,7 +314,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">PHP</h2>
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon">
@@ -336,12 +322,8 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_php.jpg' ?>" alt="">
+                                <p class="mb-5">Más de 10 año de experiencia y sigo aprendiendo</p>
                             </div>
                         </div>
                     </div>
@@ -350,7 +332,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="java-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -362,7 +344,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java</h2>
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon">
@@ -370,12 +352,8 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_java.png' ?>" alt="">
+                                <p class="mb-5">Spring, Struts y Android SDK.</p>
                             </div>
                         </div>
                     </div>
@@ -384,7 +362,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="mysql-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -396,7 +374,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mysql</h2>
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon">
@@ -404,12 +382,8 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_mysql.jpg' ?>" alt="">
+                                <p class="mb-5">Administracion, configuración y creación en este motor de base de datos</p>
                             </div>
                         </div>
                     </div>
@@ -418,7 +392,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="android-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -430,7 +404,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Android</h2>
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon">
@@ -438,12 +412,8 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_android.jpg' ?>" alt="">
+                                <p class="mb-5">Desarrollo, actualizacion y mantenimiento de aplicaciones Android.</p>
                             </div>
                         </div>
                     </div>
@@ -452,7 +422,7 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="ios-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -464,7 +434,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">iOS</h2>
 
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -474,13 +444,76 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
 
-                                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_apple.jpg' ?>" alt="">
 
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <p class="mb-5">Desarrollo, actualizacion y mantenimiento de aplicaciones para iPhone & iPad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="montain-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Algun día...</h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_everest.jpg' ?>" alt="">
+
+                                <p class="mb-5">Espero con toda mi esperanza.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Book -->
+    <div class="portfolio-modal modal fade" id="book-modal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Una guía definitiva</h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+
+                                <img class="img-fluid rounded mb-5" src="<?php echo get_stylesheet_directory_uri() . '/assets/pf_book.jpg' ?>" alt="">
+
+                                <p class="mb-5">En todos los aspectos de mi vida no es mentira, los consejos de l@s más sabios y l@s más fuertes \m/</p>
                             </div>
                         </div>
                     </div>
@@ -498,6 +531,18 @@
     <!-- <script src="js/jqBootstrapValidation.js"></script> -->
     <!-- <script src="js/contact_me.js"></script> -->
     <script src="<?php echo get_stylesheet_directory_uri() . '/assets/js/freelancer.js' ?>"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36488649-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-36488649-6');
+    </script>
 </body>
 
 </html>
